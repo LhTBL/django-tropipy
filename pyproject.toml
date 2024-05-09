@@ -1,0 +1,24 @@
+[build-system]
+requires = ['setuptools>=40.8.0']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "tropipy"
+version = "1.0"
+authors = [
+  { name="Mario Javier Tamayo Marrero", email="mario.tamayo@lighthousetech.io" },
+  { name="Roberto Sotolongo Fernández", email="robertosotolongo01@gmail.com" },
+]
+description = "Easy to use package for processing payments @ www.tropipay.com"
+readme = "README.rst"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/LhTBL/django-tropipy/"
+Issues = "https://github.com/LhTBL/django-tropipy/issues"
+
